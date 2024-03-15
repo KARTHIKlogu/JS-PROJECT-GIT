@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 var eventsModule = (function () {
+=======
+var eventsModule = (function (dModule, uModule, wModule, cModule) {
+	//This are the arguments of the eventsModule,We used argument heare to add the modules to "INDEX.html" at same time. 
+					
+>>>>>>> subBranch
 	var addEventListeners = function () {
 		//charactor typing event listener
 		
@@ -12,5 +18,9 @@ var eventsModule = (function () {
 			addEventListeners();
 		}
 	};
+<<<<<<< HEAD
 })();
+=======
+})(dataModule, UIModule, wordsModule, certificateModule);//We used call argument heare to add the modules to "INDEX.html" in a order form. 
+>>>>>>> subBranch
 
