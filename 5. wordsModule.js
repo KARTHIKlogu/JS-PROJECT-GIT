@@ -11,5 +11,5 @@ var wordsModule = (function () {
 			return word[textNumber];
 		}
 	};
-	
+
 })();
