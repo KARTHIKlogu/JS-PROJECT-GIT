@@ -1,24 +1,68 @@
 body {
-    font-family: "Lobster", sans-serif;
+	font-family: "Lobster", sans-serif;
 	background-image: url(imeges/1.bg\ img.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 	color: white;
 }
-h1{
+
+h1 {
 	font-size: 50px;
 }
 
-.meas_container{
-	background-color: rgb(20,0,0,0.7);
+.meas_container {
+	background-color: rgba(20, 0, 0, 0.7);
 }
-.row{
+
+.row {
 	font-size: 50px;
 }
-.title{
+
+.title {
 	font-size: 20px;
 }
 
+.change {
+	background-color: black;
+	height: 25px;
+	font-size: 16px;
+
+}
+
+#content {
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.4);
+	margin: 5px auto;
+	color: black;
+	font-size: 30px;
+	padding: 0 5px;
+	overflow: hidden;
+	/* this method used to hide the content which is over the content box */
+	line-height: 32px;
+	/* this methiod is used to adjest the space between lines*/
+}
+
+#input {
+	background-color: rgba(20, 0, 0, 0.7);
+
+	width: 100%;
+	font-size: 30px;
+	padding: 10pxl;
+	color: rgba (1, 226, 182);
+}
+
+.restart {
+	margin-top: 20px;
+	opacity: 0.5;
+}
+
+
+
+.bts-primary focus,
+.bts-primary:active,
+.bts-primary:hover {
+	background-color: rgba(236, 34, 202, 0.8)
+}

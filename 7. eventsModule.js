@@ -6,7 +6,6 @@ var eventsModule = (function (dModule, uModule, wModule, cModule) {
 
 		//click on download button event listner
 
-		//click on restart button event listener
 	};
 	return {
 		// init function , initializres the  trest ths before start
